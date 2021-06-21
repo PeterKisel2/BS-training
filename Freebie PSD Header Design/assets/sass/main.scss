@@ -1,0 +1,65 @@
+//variables
+$primary-color: #2b4664;
+$secondary-color: #44d7c9;
+
+body {
+    height: 100vh!important;
+    font-family: 'Rubik', sans-serif!important;
+}
+
+.bg-primary {
+    background-color: $primary-color!important;
+}
+
+.text-secondary {
+    color: $secondary-color!important;
+}
+
+//HEADER 1
+
+header:nth-of-type(1) {
+    font-size: 0.8rem!important;
+}
+
+//HEADER 2
+
+header:nth-of-type(2) {
+    height: 13.9%;
+    font-size: 1.05rem!important;
+    font-weight: 400!important;
+    border-color: #6a7d92!important;
+}
+
+.btn-outline-success {
+    border-color: $secondary-color!important;
+    border-radius: 10px!important;
+
+    &:hover {
+        background-color: $secondary-color!important;
+    }
+}
+
+//MAIN
+
+main .container {
+    margin-top: 15.1%;
+}
+
+h1 {
+    font-size: 4.375rem!important;
+    font-weight: 400!important;
+}
+
+.btn-primary {
+    background-color: $secondary-color!important;
+    border-color: $secondary-color!important;
+    font-size: 1rem!important;
+}
+
+.vertical-line {
+    height: 1.5rem;
+}
+
+.play-text {
+    line-height: 55px;
+}
