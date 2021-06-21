@@ -1,0 +1,56 @@
+body {
+  height: 100vh !important;
+  font-family: "Rubik", sans-serif !important;
+}
+
+.bg-primary {
+  background-color: #2b4664 !important;
+}
+
+.text-secondary {
+  color: #44d7c9 !important;
+}
+
+header:nth-of-type(1) {
+  font-size: 0.8rem !important;
+}
+
+header:nth-of-type(2) {
+  height: 13.9%;
+  font-size: 1.05rem !important;
+  font-weight: 400 !important;
+  border-color: #6a7d92 !important;
+}
+
+.btn-outline-success {
+  border-color: #44d7c9 !important;
+  border-radius: 10px !important;
+}
+.btn-outline-success:hover {
+  background-color: #44d7c9 !important;
+}
+
+main .container {
+  margin-top: 15.1%;
+}
+
+h1 {
+  font-size: 4.375rem !important;
+  font-weight: 400 !important;
+}
+
+.btn-primary {
+  background-color: #44d7c9 !important;
+  border-color: #44d7c9 !important;
+  font-size: 1rem !important;
+}
+
+.vertical-line {
+  height: 1.5rem;
+}
+
+.play-text {
+  line-height: 55px;
+}
+
+/*# sourceMappingURL=main.css.map */
