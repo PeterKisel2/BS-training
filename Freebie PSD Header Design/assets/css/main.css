@@ -16,7 +16,7 @@ header:nth-of-type(1) {
 }
 
 header:nth-of-type(2) {
-  height: 13.9%;
+  padding: 20px 0;
   font-size: 1.05rem !important;
   font-weight: 400 !important;
   border-color: #6a7d92 !important;
@@ -30,12 +30,22 @@ header:nth-of-type(2) {
   background-color: #44d7c9 !important;
 }
 
+.main-nav {
+  margin-left: 10%;
+}
+
+main {
+  height: 770px;
+}
 main .container {
-  margin-top: 15.1%;
+  height: 300px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 h1 {
-  font-size: 4.375rem !important;
+  font-size: calc(1.475rem + 1.5vw);
   font-weight: 400 !important;
 }
 
