@@ -1,0 +1,166 @@
+//CHANGE DEFAULT VARIABLES VALUES
+
+$primary: #252726;
+$secondary: #131315;
+$cyan: #00e1ff;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 5,
+  7: $spacer * 7,
+  8: $spacer * 9,
+  9: $spacer * 10,
+);
+
+
+$font-size-base:              1rem !default;
+
+$h1-font-size:                $font-size-base * 3.75;
+$h2-font-size:                $font-size-base * 2.5;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 0.9375 ;
+$h6-font-size:                $font-size-base * 0.8125 ;
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: 0.9375rem,
+  6: 0.8125rem
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+//BTN DEFAULT OVERRIDE
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-light {
+    color: $primary;
+    background-color: transparent;
+    border-color: $primary;
+
+    &:hover {
+        color: $primary;
+        background-color: transparent;
+        border-color: $primary;
+    }
+}
+
+.btn-dark {
+    color: white;
+    background-color: transparent;
+    border-color: $cyan;
+
+    &:hover {
+        color: white;
+        background-color: $cyan;
+        border-color: $cyan;
+    }
+}
+
+.btn-primary {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+
+    &:hover {
+        color: white;
+        background-color: $cyan;
+        border-color: white;
+    }
+}
+
+//HEADER
+
+.navbar-light .navbar-nav .nav-link:hover, 
+.navbar-light .navbar-nav .nav-link:focus {
+    color: $cyan;
+    border-bottom: 2px $cyan solid;
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+    color: $cyan;
+    border-bottom: 2px $cyan solid;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $primary;
+}
+
+//HOME
+
+.home h1 {
+    margin-top: 280px ;
+    font-weight: 200;
+}
+
+.home .btn {
+    margin-bottom: 280px;
+}
+
+//SERVICES
+
+.services > div {
+    padding: 180px 0;
+}
+
+.img-wrap {
+    height: 60px;
+    margin: 20px auto 40px auto;
+}
+
+hr {
+    width: 75px;
+    border: 1px solid $cyan;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+
+
+.button-arrow {
+
+    position: relative;
+    border-color: $cyan;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 99%;
+        left: 50%;
+        height: 10px;
+        width: 10px;
+        background: white;
+        box-sizing:border-box;
+        transform: rotate(45deg) translate(-50%);
+        border-bottom: inherit;
+        border-right: inherit;
+        box-shadow: inherit;
+    }
+}
+
+
+//MEDIA QUERIES
+
+@include media-breakpoint-up(lg) {
+    .navbar-nav:nth-child(1) li a {
+        line-height: 90px;
+    }
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css"/>  
+        <title>Ket - single page template</title>
+        <script>
+            var test = document.createElement("div")
+            test.className = "hidden d-none"
+        
+            document.head.appendChild(test)
+            var cssLoaded = window.getComputedStyle(test).display === "none"
+            document.head.removeChild(test)
+        
+            if (!cssLoaded) {
+                var link = document.createElement("link");
+        
+                link.type = "text/css";
+                link.rel = "stylesheet";
+                link.href = "_inc/bootstrap-5.0.1-dist/css/bootstrap.min.css";
+        
+                document.head.appendChild(link);
+            }
+          </script>
+    </head>
+
+    <body id="bootstrap-override">
+      <!-- HEADER -->
+      <header class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-10 col-xxl-8 mx-auto">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-0">
+              <div class="container-fluid align-items-lg-stretch">
+                <a class="navbar-brand d-flex align-items-center" href="#"><img class="" src="assets/img/logo.png" alt="Logo" height="60px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end align-items-lg-stretch" id="navbarSupportedContent">
+                  <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item ps-xl-3">
+                      <a class="nav-link active h-100 text-lg-center py-0 text-uppercase" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ps-xl-3">
+                      <a class="nav-link h-100 text-lg-center py-0 text-uppercase" href="#">Services</a>
+                    </li>
+                    <li class="nav-item ps-xl-3">
+                      <a class="nav-link h-100 text-lg-center py-0 text-uppercase" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item ps-xl-3">
+                      <a class="nav-link h-100 text-lg-center py-0 text-uppercase" href="#">About</a>
+                    </li>
+                    <li class="nav-item ps-xl-3">
+                      <a class="nav-link h-100 text-lg-center py-0 text-uppercase" href="#">News</a>
+                    </li>
+                    <li class="nav-item ps-xl-3">
+                      <a class="nav-link h-100 text-lg-center py-0 text-uppercase" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+        
+      <!-- HOME -->
+        <div class="container-fluid bg-primary home py-5">
+          <div class="row">
+              <div class="col-12 col-md-10 col-xxl-8 mx-auto text-white d-flex flex-column justify-content-center">
+                <h1 class="text-center mb-4">WE MAKE WEBSITES </h1>
+                <a class="btn btn-primary mx-auto px-4 py-2 fs-5 fw-light" href="#">START TOUR</a>
+              </div>
+          </div>
+        </div>
+
+      <!-- SERVICES -->
+        <div class="container-fluid bg-white services">
+          <div class="row justify-content-center">
+              <div class="col-12 col-sm-6 col-md-2 col-xxl-2 text-center">
+                  <div class="img-wrap">
+                    <img class="" src="assets/img/pc.png" alt="PC" height="50px">
+                  </div>
+                  <h5 class="text-uppercase">Web design</h5>
+                  <hr class="col">
+                <p class="fs-6 fw-light">Porro corporis nihil doloribus</p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 col-xxl-2 text-center">
+                  <div class="img-wrap">
+                    <img class="" src="assets/img/graphic.png" alt="PC" height="50px">
+                  </div>
+                  <h5 class="text-uppercase">Graphic design</h5>
+                  <hr class="col">
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 col-xxl-2 text-center">
+                  <div class="img-wrap">
+                    <img class="" src="assets/img/programming.png" alt="PC" height="50px">
+                  </div>
+                  <h5 class="text-uppercase">Programming</h5>
+                  <hr class="col">
+                <p class="fs-6 fw-light">Porro corporis nihil doloribus</p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-2 col-xxl-2 text-center">
+                  <div class="img-wrap">
+                    <img class="" src="assets/img/photography.png" alt="PC" height="50px">
+                  </div>
+                  <h5 class="text-uppercase">Photography</h5>
+                  <hr class="col">
+                <p class="fs-6 fw-light">Porro corporis nihil doloribus Lorem, ipsum dolor.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="container-fluid bg-gray fully-responsive">
+          <div class="row justify-content-center">
+              <div class="col-12 col-lg-10">
+                <div class="col-10 mx-auto">
+                  <a class="w-50 btn btn-light text-uppercase" href="#">Start tour</a><a class="w-50 btn btn-light text-uppercase button-arrow" href="#">For all devices</a>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    
+    </body>
+</html>
